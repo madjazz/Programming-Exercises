@@ -1,7 +1,7 @@
 sub_string = 'bob'
 sub_string_length = len(sub_string)
 
-s <- "jhfuhiuahiahobobob"
+s = "jhfuhiuahiahobobob"
 
 bobs = 0
 
