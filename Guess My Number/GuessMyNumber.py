@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 16 18:37:10 2017
+
+Guess my number
+
+@author: Timo
+"""
+
 low = 0
 mid = 50
 high = 100

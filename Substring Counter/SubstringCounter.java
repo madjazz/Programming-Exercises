@@ -17,6 +17,6 @@ public class SubstringCounter {
              lastIndex += subString.length();
          }
      }
-     System.out.println(count);
+     System.out.println("Number of times bob occurs: " +count);
    }
 }
