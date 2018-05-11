@@ -16,8 +16,10 @@ public class Solution {
     }
 
     public static int totalCost(double mealCost, int tipPercent, int taxPercent) {
-        double tip = (double) (12 * tipPercent) / 100;
-        double tax = (double) (12 * taxPercent) / 100;
+        double tip_temp = (double) tipPercent/100;
+        double tax_temp = (double) taxPercent/100;
+        double tip = mealCost * tip_temp;
+        double tax = mealCost * tax_temp;
         int result = (int) Math.round(mealCost + tip + tax);
         return result;
     }
