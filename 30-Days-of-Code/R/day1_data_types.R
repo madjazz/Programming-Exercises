@@ -6,9 +6,11 @@ s <- 'HackerRank '
 
 # Read and save an integer, double, and String to your variables.
 
-var_int <- as.integer(readline())
-var_double <- as.numeric(readline())
-var_string <- readline()
+vec <- readLines(file("stdin"))
+
+var_int <- as.integer(vec[1])
+var_double <- as.numeric(vec[2])
+var_string <- vec[3]
 
 # Print the sum of both integer variables on a new line.
 i + var_int
@@ -18,4 +20,5 @@ d + var_double
 
 # Concatenate and print the String variables on a new line
 # The 's' variable above should be printed first.
-paste0(s, var_string)
+
+write(paste0(s, var_string), stdout())
