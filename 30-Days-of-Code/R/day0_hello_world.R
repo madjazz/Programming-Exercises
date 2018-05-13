@@ -1,5 +1,5 @@
-input <- readline()
+input <- readLines(file("stdin"))
 
-print("Hello, World.")
+write("Hello, World.", stdout())
 
-print(input)
+write(input, stdout())
